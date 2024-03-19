@@ -195,15 +195,15 @@ namespace claseTANAKA01
                 while (!validOption)
                 {
                     Console.WriteLine("Desea continuar??");
-                    Console.WriteLine("1. Si");
-                    Console.WriteLine("2. No");
+                    Console.WriteLine("Si");
+                    Console.WriteLine("No");
                     string optionfinal = Console.ReadLine();
                     switch (optionfinal)
                     {
-                        case "1":
+                        case "Si":
                             validOption = true;
                             break;
-                        case "2":
+                        case "No":
                             continueFlag = false;
                             validOption = true;
                             break;
